@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janazah Mondiale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <header>
+        <div data-key="logo">Janazah Mondiale</div>
+        <select id="lang-select">
+            <option value="fr">Français</option>
+            <option value="ar">العربية</option>
+            <option value="en">English</option>
+        </select>
+    </header>
+
+    <div class="container">
+        <h1 data-key="title">Prières de Janazah</h1>
+        <button id="login-google" data-key="login_google">S'inscrire avec Google</button>
+        <div id="annonces-list"></div>
+    </div>
